@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CampusBites is a student project exploring a food guide for Holy Angel University. Week 1 uses sample content.">
+  <title>Contact | CampusBites</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html">Campus<span>Bites</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="food-spots.html">Food Spots</a>
+      <a href="deals-reviews.html">Deals & Reviews</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section container">
+      <p class="eyebrow">Help us build the guide</p>
+      <h1>Contact</h1>
+      <p>Have a food spot to suggest? This page will provide a way to reach the CampusBites team.</p>
+      <div class="contact-grid">
+        <div class="simple-card">
+          <h2>Team &amp; vendor information</h2>
+          <p>Project email: To be updated</p>
+          <p>Team members: To be updated</p>
+          <p>Vendor name: To be updated</p>
+          <p>Vendor contact: To be updated</p>
+          <p class="notice">Only add verified contact information that you have permission to publish.</p>
+        </div>
+        <form id="contact-form" class="simple-card">
+          <h2>Send a suggestion</h2>
+          <p id="form-note">Demo form only. Nothing is sent or saved.</p>
+          <label for="name">Name</label>
+          <input id="name" type="text" autocomplete="name">
+          <label for="email">Email</label>
+          <input id="email" type="email" autocomplete="email">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5"></textarea>
+          <button class="button" type="submit" aria-describedby="form-note">Submit (demo)</button>
+          <p id="form-status" role="status"></p>
+          <noscript><p>JavaScript is off. This demo cannot send messages.</p></noscript>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Campus<span>Bites</span></a>
+      <p>A student-made cafeteria guide for the HAU community.</p>
+      <nav aria-label="Footer navigation"><a href="index.html">Home</a>
+        <a href="food-spots.html">Food Spots</a>
+        <a href="deals-reviews.html">Deals & Reviews</a>
+        <a href="contact.html">Contact</a></nav>
+      <small>&copy; 2026 CampusBites · Intro to Web final project · Week 1 prototype.<br>Independent student project. Sample information is not verified HAU information.</small>
+    </div>
+  </footer>
+</body>
+</html>

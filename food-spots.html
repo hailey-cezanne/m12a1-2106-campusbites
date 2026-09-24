@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CampusBites is a student project exploring a food guide for Holy Angel University. Week 1 uses sample content.">
+  <title>Food Spots | CampusBites</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html">Campus<span>Bites</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="food-spots.html" aria-current="page">Food Spots</a>
+      <a href="deals-reviews.html">Deals & Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="section container">
+      <p class="eyebrow">Find a place for your next break</p>
+      <h1>Food Spots</h1>
+      <p>Explore food around campus.</p>
+      <p class="notice">All listings, prices and descriptions below are SAMPLE CONTENT. Real stall names, photos and locations still need to be collected.</p>
+      <div class="search-controls">
+        <label for="food-search">Search sample food spots</label>
+        <input type="search" id="food-search" placeholder="Try meals or snack" autocomplete="off">
+        <div class="filters" role="group" aria-label="Filter by category">
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="meals" aria-pressed="false">Meals</button>
+          <button type="button" data-filter="snacks" aria-pressed="false">Snacks</button>
+          <button type="button" data-filter="drinks" aria-pressed="false">Drinks</button>
+          <button type="button" data-filter="desserts" aria-pressed="false">Desserts</button>
+        </div>
+      </div>
+      <noscript><p>Search and category filtering need JavaScript. You can still browse all listings below.</p></noscript>
+      <p id="result-count" role="status">4 sample spots shown.</p>
+      <div class="food-grid" id="food-list">
+      <!-- SAMPLE: replace this listing with verified stall information. -->
+      <article class="food-card" id="spot-1" data-category="meals">
+        <div class="food-image placeholder"><span>Meals</span><small>Food photo placeholder</small></div>
+        <div class="card-body">
+          <span class="sample-label">Sample listing</span>
+          <h3>Sample Meal Stall</h3>
+          <p class="category">Meals</p>
+          <p class="price">₱50 – ₱120 <small>(sample)</small></p>
+          <p>Location: To be updated</p>
+          <details><summary>View sample details</summary><p>A sample rice-meal listing. Menu items will be researched later.</p><p>Menu, opening hours and vendor contact: To be updated.</p></details>
+        </div>
+      </article>
+      <!-- SAMPLE: replace this listing with verified stall information. -->
+      <article class="food-card" id="spot-2" data-category="snacks">
+        <div class="food-image placeholder"><span>Snacks</span><small>Food photo placeholder</small></div>
+        <div class="card-body">
+          <span class="sample-label">Sample listing</span>
+          <h3>Sample Snack Corner</h3>
+          <p class="category">Snacks</p>
+          <p class="price">₱25 – ₱70 <small>(sample)</small></p>
+          <p>Location: To be updated</p>
+          <details><summary>View sample details</summary><p>A sample snack listing. Available snacks will be added later.</p><p>Menu, opening hours and vendor contact: To be updated.</p></details>
+        </div>
+      </article>
+      <!-- SAMPLE: replace this listing with verified stall information. -->
+      <article class="food-card" id="spot-3" data-category="drinks">
+        <div class="food-image placeholder"><span>Drinks</span><small>Food photo placeholder</small></div>
+        <div class="card-body">
+          <span class="sample-label">Sample listing</span>
+          <h3>Sample Drink Stop</h3>
+          <p class="category">Drinks</p>
+          <p class="price">₱30 – ₱80 <small>(sample)</small></p>
+          <p>Location: To be updated</p>
+          <details><summary>View sample details</summary><p>A sample drink listing. Sizes and drink choices are still to come.</p><p>Menu, opening hours and vendor contact: To be updated.</p></details>
+        </div>
+      </article>
+      <!-- SAMPLE: replace this listing with verified stall information. -->
+      <article class="food-card" id="spot-4" data-category="desserts">
+        <div class="food-image placeholder"><span>Desserts</span><small>Food photo placeholder</small></div>
+        <div class="card-body">
+          <span class="sample-label">Sample listing</span>
+          <h3>Sample Sweet Spot</h3>
+          <p class="category">Desserts</p>
+          <p class="price">₱35 – ₱90 <small>(sample)</small></p>
+          <p>Location: To be updated</p>
+          <details><summary>View sample details</summary><p>A sample dessert listing. Actual items will be confirmed later.</p><p>Menu, opening hours and vendor contact: To be updated.</p></details>
+        </div>
+      </article>
+      </div>
+      <p id="no-results" hidden>No sample spots match. Try another search or choose All.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Campus<span>Bites</span></a>
+      <p>A student-made cafeteria guide for the HAU community.</p>
+      <nav aria-label="Footer navigation"><a href="index.html">Home</a>
+        <a href="food-spots.html">Food Spots</a>
+        <a href="deals-reviews.html">Deals & Reviews</a>
+        <a href="contact.html">Contact</a></nav>
+      <small>&copy; 2026 CampusBites · Intro to Web final project · Week 1 prototype.<br>Independent student project. Sample information is not verified HAU information.</small>
+    </div>
+  </footer>
+</body>
+</html>
